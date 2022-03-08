@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --primary: #050A30;
+    --secondary: #F4F6FC;
+    --color3: #233DFF;
+    --color4: #dcdcdc;
+    --color5: #575757;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Noto Serif';
+    letter-spacing: -0.03em;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    font-size: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='text'] :disabled,
+input[type='email'] :disabled,
+input[type='password'] :disabled {
+    background: #ffffff;
+    border: 0.5px solid var(--color4);
+    outline: none;
+    color: var(--color5);
+}
