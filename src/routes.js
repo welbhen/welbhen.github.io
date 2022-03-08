@@ -6,7 +6,7 @@ import Home from './pages/home/';
 
 const MyRoutes = () => {
     return(
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
