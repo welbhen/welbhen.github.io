@@ -1,0 +1,57 @@
+.skills {
+    text-align: center;
+}
+
+.skill-list li {
+    display: inline-block;
+    padding: 4px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: var(--primary);
+}
+.skill-list li img{
+    width: 60px;
+    border: none;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.about button,
+.about button:focus {
+    width: 95%;
+    color: var(--color4);
+    display: block;
+    border: none;
+    background: inherit;
+    padding: 0;
+}
+.about button:active,
+.about button:hover {
+    background: var(--secondary);
+    color: var(--color5);
+    cursor: pointer;
+}
+
+.left-menu {
+    width: 24%;
+    margin: 0 1%;
+    border-right: 2px solid;
+    border-color: var(--secondary);
+    text-align: center;
+    align-self: center;
+    
+}
+
+.right-menu {
+    width: 70%;
+    height: inherit;
+    margin: 0 1%;
+    color: var(--color4);
+    text-align: justify;
+    align-self: center;
+}

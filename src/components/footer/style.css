@@ -1,0 +1,9 @@
+footer {
+    background-color: inherit;
+    width: 800px;
+    display: block;
+    margin: 0 auto 0;
+    padding: 5px 0;
+    align-content: center;
+    text-align: center;
+}

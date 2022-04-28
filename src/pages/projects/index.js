@@ -1,0 +1,59 @@
+import './style.css';
+import Header from '../../components/header';
+import Project from '../../components/project';
+
+import { useNavigate } from "react-router-dom";
+
+/* ##### HOSTING IMAGES AT:
+
+    https://welberth-marques.imgbb.com/
+
+*/
+
+// ################ TODO: change from IMAGE to VIDEO
+
+const Projects = () => {
+    const navigate = useNavigate();
+    const goToHome = () => {
+        navigate('/');
+    }
+    return(
+        <div className="page">
+            <Header />
+            <button onClick={goToHome} className="btn mdi mdi-backburger back-btn"> Back to Home Page</button>
+            
+            <div className="projects-container">
+                <Project 
+                    title="Solar PV Calculator"
+                    skills="Node.js,Express,HTML,CSS"
+                    linkProject="https://solarapi-calculator.herokuapp.com/"
+                    linkCode="https://github.com/welbhen/solar-calculator"
+                    image="https://i.ibb.co/2nFt5vB/solar-calculator.jpg"
+                />
+                <Project 
+                    title="Blog Website"
+                    skills="Node.js,Express,Mongoose,Handlebars,Body-Parser,bcryptjs,Passport"
+                    linkProject="https://blogapp-studies.herokuapp.com/"
+                    linkCode="https://github.com/welbhen/blogapp"
+                    image="https://i.ibb.co/1nM8xM7/blog-app.jpg"
+                />
+                <Project 
+                    title="HomeShop (front-end)"
+                    skills="Node.js,React,react-router,Redux,axios,immer,sweetalert2"
+                    linkProject="https://homeoffice-shop.herokuapp.com/"
+                    linkCode="https://github.com/welbhen/homeshop-frontend"
+                    image="https://i.ibb.co/ZxXhkC8/homeshop-front.jpg"
+                />
+                <Project 
+                    title="HomeShop (back-end)"
+                    skills="Node.js,Express,Mongoose,bcryptjs,Passport,cors,morgan"
+                    linkProject="https://homeshop-backend.herokuapp.com/"
+                    linkCode="https://github.com/welbhen/homeshop-backend"
+                    image="https://i.ibb.co/mTGZNrJ/homeshop-back.jpg"
+                />             
+            </div>
+        </div>
+    );
+};
+
+export default Projects;

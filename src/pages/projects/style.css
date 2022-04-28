@@ -1,0 +1,24 @@
+.list li {
+    display: inline-block;
+    padding: 4px;
+    margin: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    border-radius: 5px;
+    border-color: var(--primary);
+    border: 1px solid;
+}
+
+.back-btn,
+.back-btn:active,
+.back-btn:focus,
+.back-btn:hover {
+    position: absolute;
+    z-index: 999;
+    top: 80px;
+    left: 120px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}

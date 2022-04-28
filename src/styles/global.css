@@ -1,35 +1,68 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* COLOR PALETTE
+https://www.canva.com/brand/kAEdcKfvj-0
+****************************************/
 :root {
     --primary: #050A30;
-    --secondary: #F4F6FC;
-    --color3: #233DFF;
+    --secondary: #BAE8E8;
+    --color3: #2C698D;
     --color4: #dcdcdc;
     --color5: #575757;
 }
-
-html,
 body {
     height: 100%;
-    overflow-x: hidden;
     font-family: 'Noto Serif';
-    letter-spacing: -0.03em;
+    letter-spacing: -0.03em; /* makes space smaller */
+    background-color: white;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'] {
-    font-size: 15px;
+/* Buttons
+-------------------------------------------------*/
+.btn,
+.btn:focus,
+.btn:active {
+    background: white;
+    color: var(--primary);
+    border-radius: 5px;
+    border-color: var(--primary);
+    border: 1px solid;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+}
+.btn:hover {
+    background: var(--secondary);
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='text'] :disabled,
-input[type='email'] :disabled,
-input[type='password'] :disabled {
-    background: #ffffff;
-    border: 0.5px solid var(--color4);
-    outline: none;
-    color: var(--color5);
+/* Images
+-------------------------------------------------*/
+img {
+    width: 250px;
+}
+
+/* Content
+-------------------------------------------------*/
+.projects-container {
+    background-color: var(--color5);
+    width: 800px;
+    margin: 10px auto 0;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+.project {
+    align-content: center;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    display: inline-block;
+    color: var(--color4);
+    margin: 2px 2px;
+    padding: 0;
+    border: 2px solid;
+    border-radius: 10px;
 }
