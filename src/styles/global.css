@@ -47,7 +47,6 @@ img {
 /* Content
 -------------------------------------------------*/
 .projects-container {
-    background-color: var(--color5);
     width: 800px;
     margin: 10px auto 0;
     padding: 20px 0;
@@ -60,7 +59,7 @@ img {
     width: 380px;
     height: 500px;
     display: inline-block;
-    color: var(--color4);
+    color: var(--secondary);
     margin: 2px 2px;
     padding: 0;
     border: 2px solid;

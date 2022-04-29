@@ -2,6 +2,9 @@
     height: 10%;
     width: 100%;
 }
+.project-title h3 {
+    color: var(--color5);
+}
 
 .project-images {
     border: 0px solid;
@@ -21,4 +24,15 @@
 .project-links {
     height: 10%;
     width: 100%;
+}
+
+.list li {
+    display: inline-block;
+    padding: 4px;
+    margin: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    border-radius: 5px;
+    border: 1px solid;
 }
