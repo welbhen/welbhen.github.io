@@ -47,7 +47,7 @@ img {
 /* Content
 -------------------------------------------------*/
 .projects-container {
-    width: 800px;
+    width: 900px;
     margin: 10px auto 0;
     padding: 20px 0;
     display: block;
@@ -56,8 +56,8 @@ img {
 .project {
     align-content: center;
     text-align: center;
-    width: 380px;
-    height: 500px;
+    width: 430px;
+    height: 400px;
     display: inline-block;
     color: var(--secondary);
     margin: 2px 2px;

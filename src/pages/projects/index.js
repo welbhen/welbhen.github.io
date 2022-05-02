@@ -1,16 +1,13 @@
 import './style.css';
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 import Project from '../../components/project';
 
 import { useNavigate } from "react-router-dom";
 
 /* ##### HOSTING IMAGES AT:
-
     https://welberth-marques.imgbb.com/
-
 */
-
-// ################ TODO: change from IMAGE to VIDEO
 
 const Projects = () => {
     const navigate = useNavigate();
@@ -29,6 +26,7 @@ const Projects = () => {
                     linkProject="https://solarapi-calculator.herokuapp.com/"
                     linkCode="https://github.com/welbhen/solar-calculator"
                     image="https://i.ibb.co/2nFt5vB/solar-calculator.jpg"
+                    video="https://www.youtube.com/embed/RBsUADlXxT8"
                 />
                 <Project 
                     title="Blog Website"
@@ -36,13 +34,15 @@ const Projects = () => {
                     linkProject="https://blogapp-studies.herokuapp.com/"
                     linkCode="https://github.com/welbhen/blogapp"
                     image="https://i.ibb.co/1nM8xM7/blog-app.jpg"
+                    video="https://www.youtube.com/embed/SZPo0qnCU7U"
                 />
                 <Project 
                     title="HomeShop (front-end)"
-                    skills="Node.js,React,react-router,Redux,axios,immer,sweetalert2"
+                    skills="Node.js,React,react-router,Redux,axios,immer,sweetalert2,HTML,CSS"
                     linkProject="https://homeoffice-shop.herokuapp.com/"
                     linkCode="https://github.com/welbhen/homeshop-frontend"
                     image="https://i.ibb.co/ZxXhkC8/homeshop-front.jpg"
+                    video="https://www.youtube.com/embed/mX4MLivruOk"
                 />
                 <Project 
                     title="HomeShop (back-end)"
@@ -50,8 +50,10 @@ const Projects = () => {
                     linkProject="https://homeshop-backend.herokuapp.com/"
                     linkCode="https://github.com/welbhen/homeshop-backend"
                     image="https://i.ibb.co/mTGZNrJ/homeshop-back.jpg"
+                    video="https://www.youtube.com/embed/BgkED3IdMHw"
                 />             
             </div>
+            <Footer />
         </div>
     );
 };
