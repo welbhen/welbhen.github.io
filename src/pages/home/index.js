@@ -7,6 +7,9 @@ import Nodejs from '../../assets/node-js.png'
 import React from '../../assets/react.png'
 import Express from '../../assets/express.png'
 import MongoDB from '../../assets/mongo.png'
+import Heroku from '../../assets/heroku.png'
+import Git from '../../assets/git.png'
+import Rest from '../../assets/rest.png'
 
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
@@ -47,6 +50,15 @@ const Home = () => {
                         </li>
                         <li>
                             <img src={MongoDB} alt="MongoDB logo"/>
+                        </li>
+                        <li>
+                            <img src={Heroku} alt="Heroku logo"/>
+                        </li>
+                        <li>
+                            <img src={Git} alt="Git logo"/>
+                        </li>
+                        <li>
+                            <img src={Rest} alt="Rest logo"/>
                         </li>
                     </ul>
                 </div>
