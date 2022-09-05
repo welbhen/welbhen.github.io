@@ -38,15 +38,10 @@ const Home = () => {
                 <Skills />
                 <div className="about">
                     <div className="left-menu">
-
                         <button onClick={() => setMenu("about")} className="btn"><h3>About</h3></button>
-
                         <button onClick={() => setMenu("career")} className="btn"><h3>Career</h3></button>
-
                         <button onClick={() => setMenu("contact")} className="btn"><h3>Contact</h3></button>
-
                         <button onClick={goToProjects} className="btn"><h3>Projects</h3></button>
-
                     </div>
                     <div className="right-menu">
                         {rightComponent}

@@ -52,6 +52,8 @@
   .about button:hover {
     display: inline-block;
     max-width: 15%;
+    font-size: 20px;
+    padding: 3px;
   }
 
   .left-menu {

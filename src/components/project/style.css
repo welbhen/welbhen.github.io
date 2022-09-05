@@ -38,5 +38,10 @@
 /* Responsive styles
 -------------------------------------------------*/
 @media screen and (max-width: 1023px) {
-  /* here */
+  .project-video {
+    height: 60%;
+  }
+  .project-description {
+    max-height: 10%;
+  }
 }

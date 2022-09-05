@@ -56,5 +56,20 @@ header {
 /* Responsive styles
 -------------------------------------------------*/
 @media screen and (max-width: 1023px) {
-  /* here */
+  .logo-btn img {
+    width: 50%;
+  }
+  .header-content a,
+  .header-content a:active,
+  .header-content a:focus,
+  .header-content a:hover,
+  .hamburger-menu,
+  .hamburger-menu:active,
+  .hamburger-menu:focus,
+  .hamburger-menu:hover {
+    font-size: 50px;
+  }
+  .nav-content .btn {
+    font-size: 20px;
+  }
 }

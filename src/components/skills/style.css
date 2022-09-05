@@ -32,5 +32,6 @@
   .skill-item,
   .skill-item img {
     display: inline-block;
+    min-width: 100px;
   }
 }
