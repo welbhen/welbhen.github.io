@@ -1,36 +1,42 @@
 .project-title {
-    height: 10%;
-    width: 100%;
+  height: 10%;
+  width: 100%;
 }
 .project-title h3 {
-    color: var(--color5);
+  color: var(--color5);
 }
 
 .project-video {
-    border: 0px solid;
-    width: 100%;
-    height: 45%;
+  border: 0px solid;
+  width: 100%;
+  height: 45%;
 }
 .project-video iframe {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .project-description {
-    height: 20%;
-    width: 100%;
+  height: 20%;
+  width: 100%;
 }
 
 .project-links {
-    height: 10%;
-    width: 100%;
+  height: 10%;
+  width: 100%;
 }
 
 .list li {
-    display: inline-block;
-    padding: 4px;
-    margin: 2px 1px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--color3);
+  display: inline-block;
+  padding: 4px;
+  margin: 2px 1px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color3);
+}
+
+/* Responsive styles
+-------------------------------------------------*/
+@media screen and (max-width: 1023px) {
+  /* here */
 }

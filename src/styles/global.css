@@ -1,21 +1,21 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* COLOR PALETTE
 https://www.canva.com/brand/kAEdcKfvj-0
 ****************************************/
 :root {
-    --primary: #050A30;
-    --secondary: #BAE8E8;
-    --color3: #2C698D;
-    --color4: #dcdcdc;
-    --color5: #575757;
+  --primary: #050a30;
+  --secondary: #bae8e8;
+  --color3: #2c698d;
+  --color4: #dcdcdc;
+  --color5: #575757;
 }
 body {
-    height: 100%;
-    font-family: 'Noto Serif';
-    letter-spacing: -0.03em; /* makes space smaller */
-    background-color: white;
+  height: 100%;
+  font-family: "Noto Serif";
+  letter-spacing: -0.03em; /* makes space smaller */
+  background-color: white;
 }
 
 /* Buttons
@@ -23,45 +23,57 @@ body {
 .btn,
 .btn:focus,
 .btn:active {
-    background: white;
-    color: var(--primary);
-    border-radius: 5px;
-    border-color: var(--primary);
-    border: 1px solid;
-    margin-right: 2px;
-    margin-left: 2px;
-    text-decoration: none;
-    padding: 3px;
-    display: inline-block;
+  background: white;
+  color: var(--primary);
+  border-radius: 5px;
+  border-color: var(--primary);
+  border: 1px solid;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-decoration: none;
+  padding: 3px;
+  display: inline-block;
 }
 .btn:hover {
-    background: var(--secondary);
+  background: var(--secondary);
 }
 
 /* Images
 -------------------------------------------------*/
 img {
-    width: 250px;
+  width: 250px;
 }
 
 /* Content
 -------------------------------------------------*/
 .projects-container {
-    width: 900px;
-    margin: 10px auto 0;
-    padding: 20px 0;
-    display: block;
-    text-align: center;
+  width: 900px;
+  margin: 10px auto 0;
+  padding: 20px 0;
+  display: block;
+  text-align: center;
 }
 .project {
-    align-content: center;
-    text-align: center;
-    width: 430px;
-    height: 400px;
-    display: inline-block;
-    color: var(--secondary);
-    margin: 2px 2px;
-    padding: 0;
-    border: 2px solid;
-    border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  width: 430px;
+  height: 400px;
+  display: inline-block;
+  color: var(--secondary);
+  margin: 2px 2px;
+  padding: 0;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+/* Responsive styles
+-------------------------------------------------*/
+@media screen and (max-width: 1023px) {
+  .project {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--primary);
+  }
 }
