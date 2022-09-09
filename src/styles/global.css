@@ -72,6 +72,7 @@ img {
   .project {
     display: block;
     width: 100%;
+    height: 600px;
     border: none;
     border-radius: 0;
     border-bottom: 2px solid var(--primary);

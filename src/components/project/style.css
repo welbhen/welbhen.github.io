@@ -41,6 +41,9 @@
   .project-video {
     height: 60%;
   }
+  .project-video iframe {
+    width: 80%;
+  }
   .project-description {
     max-height: 10%;
   }

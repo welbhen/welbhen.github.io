@@ -1,4 +1,6 @@
-import './style.css'
+import "./style.css";
+
+import Stack from '../../components/stack';
 
 const Project = (props) => {
     const skills = (props.skills).split(",");
@@ -20,7 +22,7 @@ const Project = (props) => {
             <div className="project-description">
                 <ul className="list">
                     {skills.map((skill, i) => (
-                        <li key={'skill_' + i}>#{skill}</li>
+                        <li key={'skill_' + i}><Stack stack={skill} /></li>
                     ))}
                 </ul>
             </div>
